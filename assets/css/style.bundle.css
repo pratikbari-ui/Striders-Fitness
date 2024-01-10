@@ -97507,7 +97507,7 @@ body {
   }
 
 .section-notification{display:none;}
-
+.header-menu-wrapper.header-menu-wrapper-left.d-flex{display:unset!important;}
 }
 
 @media screen and (max-width: 991.98px) and (-ms-high-contrast: active),
@@ -100207,11 +100207,11 @@ a.view-demo:hover {
 .section-notification{
   background-color: #e32124;
   padding: 5px 10px;
+  margin-left: auto;
 }
 
 .header-menu-wrapper-side{
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-left: auto;
+  align-items: center;  
 }
