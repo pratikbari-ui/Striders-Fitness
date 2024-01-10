@@ -97507,7 +97507,7 @@ body {
   }
 
 .section-notification{display:none;}
-.header-menu-wrapper.header-menu-wrapper-left.d-flex{display:unset!important;}
+.header-menu-wrapper.header-menu-wrapper-left.d-flex, .header-menu-wrapper-side{display:unset!important;}
 }
 
 @media screen and (max-width: 991.98px) and (-ms-high-contrast: active),
