@@ -8367,8 +8367,8 @@ a.close.disabled {
   -webkit-box-flex: 0;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  width: 23px;
-  height: 3px;
+  width: 18px;
+  height: 0px;
   margin-right: 3px;
   margin-left: 3px;
   text-indent: -999px;
@@ -100128,14 +100128,14 @@ a.clsBtnEnrollNow:hover {
 
 .caption h1 {
   color: #fff;
-  font-size: 52px;
-  font-weight: 700;
+  font-size: 3rem;
+  font-weight: 600;
   margin-bottom: 23px;
 }
 
 .caption h2 {
   color: rgba(255, 255, 255, .75);
-  font-size: 26px;
+  font-size: 1.7rem;
   font-weight: 300;
 }
 
