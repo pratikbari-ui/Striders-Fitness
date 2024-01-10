@@ -94986,6 +94986,7 @@ body {
     min-height: 55px;
     position: relative;
     z-index: 3;
+    background-color: #e32124;
   }
 
   .topbar-mobile-on .header-mobile {
