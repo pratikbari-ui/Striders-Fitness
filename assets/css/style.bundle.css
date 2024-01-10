@@ -2900,6 +2900,17 @@ pre code {
   .table-responsive-lg>.table-bordered {
     border: 0;
   }
+
+  .caption h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .caption h2 {
+    display:none;
+  }
+
 }
 
 @media (max-width: 1199.98px) {
