@@ -4958,7 +4958,7 @@ input[type="button"].btn-block {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 0.65rem 1rem;
+  padding: 0.45rem 1rem;
   margin-bottom: 0;
   font-size: 1rem;
   font-weight: 400;
@@ -8722,6 +8722,10 @@ button.bg-white:focus {
 
 .rounded {
   border-radius: 0.42rem !important;
+}
+
+.rounded-2{
+  border-radius: 2rem !important;
 }
 
 .rounded-top {
@@ -97501,6 +97505,9 @@ body {
     transition: left 0.3s ease, right 0.3s ease, bottom 0.3s ease, top 0.3s ease;
     left: 0;
   }
+
+.section-notification{display:none;}
+
 }
 
 @media screen and (max-width: 991.98px) and (-ms-high-contrast: active),
@@ -100195,4 +100202,16 @@ a.view-demo:hover {
 
 .carousel-item h1, .carousel-item h2{
   text-shadow: 1px 1px 2px #ccc;
+}
+
+.section-notification{
+  background-color: #e32124;
+  padding: 5px 10px;
+}
+
+.header-menu-wrapper-side{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
 }
